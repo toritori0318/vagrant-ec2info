@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "vagrant-ec2info"
   gem.homepage = "http://github.com/toritori0318/vagrant-ec2info"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Show the ec2 metadata from vagrant}
+  gem.description = %Q{Show the ec2 metadata from vagrant}
   gem.email = "toritori0318@gmail.com"
   gem.authors = ["toritori0318"]
   # dependencies defined in Gemfile
