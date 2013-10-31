@@ -2,7 +2,7 @@ module VagrantPlugins
   module Ec2info
     module Action
       # This runs the configured instance.
-      class Metadata
+      class Info
         include Vagrant::Util::Retryable
 
         def initialize(app, env)

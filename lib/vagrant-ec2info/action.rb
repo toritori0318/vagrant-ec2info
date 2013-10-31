@@ -13,13 +13,13 @@ module VagrantPlugins
         Vagrant::Action::Builder.new.tap do |b|
           b.use ConfigValidate
           b.use VagrantPlugins::AWS::Action::ConnectAWS
-          b.use Metadata
+          b.use Info
         end
       end
 
       # The autoload farm
       action_root = Pathname.new(File.expand_path("../action", __FILE__))
-      autoload :Metadata, action_root.join("info")
+      autoload :Info, action_root.join("info")
     end
   end
 end
