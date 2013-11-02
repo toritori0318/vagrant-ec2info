@@ -2,9 +2,24 @@
 
 Show the ec2 metadata from vagrant. (required vagrant-aws)
 
-## ScreenShot
+## Show Items
 
-<img src="ec2info_screenshot.png" width="450px" />
+- Instance ID
+- Instance Type
+- Image ID
+- Region
+- Availability Zone
+- Keypair
+- Security Groups
+- Private IP
+- Private DNS
+- Public IP
+- Public DNS
+- Status
+- Launch Time
+- Tags
+- Vpc ID
+- Subnet ID
 
 ## Usage
 
