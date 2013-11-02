@@ -32,9 +32,9 @@ module VagrantPlugins
 
               tags = server.tags.to_hash || {}
               if !tags.empty?
-                puts "[#{env[:machine].name}] -- Tags:"
+                puts "[#{env[:machine].name}]  -- Tags:"
                 tags.keys().each do |key|
-                  puts "[#{env[:machine].name}]      #{key}:#{tags[key]}"
+                  puts "[#{env[:machine].name}]       #{key}:#{tags[key]}"
                 end
               end
 
